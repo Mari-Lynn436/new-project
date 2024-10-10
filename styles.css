@@ -1,0 +1,26 @@
+p {
+    color: #641616;
+    font-family: Edu Australia VIC WA NT Hand Dots;
+}
+p:hover {
+font-size: 17px;
+transition: 0.3s ease;
+color: random
+}
+h1:hover {
+    color: random();
+      animation: bounce 0.8s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+    }
